@@ -20,8 +20,8 @@ cd .. && react-native run-android
 # build
 ```
 cd android
-gradlew assembleRelease     # build app-debug.apk
-gradlew bundleRelease       # build app-debug.apk and app-release.apk
+gradlew assembleRelease     # build app-debug.apk and app-release.apk
+gradlew bundleRelease       # build app-debug.apk
 # you can find the apk file in "app_19cs095\android\app\build\outputs\apk" 
 ```
 # adb uninstall
