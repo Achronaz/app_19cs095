@@ -12,6 +12,7 @@ cd app_19cs095
 npm install
 
 # download project zip folder instead of clone + npm install
+# https://drive.google.com/file/d/1DUzbVSt6g-WMClTqyGSm5MgxUXV8H_Bm/view?usp=sharing
 # if the node_modules are broken
 
 cd android && gradlew clean
