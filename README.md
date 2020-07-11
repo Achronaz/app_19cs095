@@ -17,11 +17,6 @@ npm install
 cd android && gradlew clean
 cd .. && react-native run-android
 ```
-# clean
-```
-cd android
-gradlew clean
-```
 # build
 ```
 cd android
@@ -30,5 +25,6 @@ gradlew bundleRelease       # build app-debug.apk and app-release.apk
 ```
 # adb uninstall
 ```
+# sometime, you need to uninstall old version before running on debug mode
 adb uninstall com.app_19cs095
 ```
