@@ -1,4 +1,4 @@
-# Release [app-release.apk](https://drive.google.com/file/d/1E8_T7slY_GdZLLX0R2FSWFenXDRrKp_k/view?usp=sharing)
+# Dowdload: [app-release.apk](https://drive.google.com/file/d/1E8_T7slY_GdZLLX0R2FSWFenXDRrKp_k/view?usp=sharing)
 # install react native, android studio and android debug bridge(adb)
 ```
 https://reactnative.dev/docs/environment-setup
