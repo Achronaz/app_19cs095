@@ -1,11 +1,12 @@
-# Dowdload: [app-release.apk](https://drive.google.com/file/d/1E8_T7slY_GdZLLX0R2FSWFenXDRrKp_k/view?usp=sharing)
-# install react native, android studio and android debug bridge(adb)
+# Android Application for demonstrating [Food Recognition API](https://github.com/Achronaz/server_19cs095)
+## Dowdload: [app-release.apk](https://drive.google.com/file/d/1E8_T7slY_GdZLLX0R2FSWFenXDRrKp_k/view?usp=sharing)
+## install react native, android studio and android debug bridge(adb)
 ```
 https://reactnative.dev/docs/environment-setup
 https://developer.android.com/studio
 https://developer.android.com/studio/command-line/adb
 ```
-# run on android devices
+## run on android devices
 ```
 adb devices
 git clone https://github.com/Achronaz/app_19cs095
@@ -18,14 +19,14 @@ npm install
 cd android && gradlew clean
 cd .. && react-native run-android
 ```
-# build
+## build
 ```
 cd android
 gradlew assembleRelease     # build app-debug.apk and app-release.apk
 gradlew bundleRelease       # build app-debug.apk
 # you can find the apk file in "app_19cs095\android\app\build\outputs\apk" 
 ```
-# adb uninstall
+## adb uninstall
 ```
 # sometime, you need to uninstall old version before running on debug mode
 adb uninstall com.app_19cs095
